@@ -1,2 +1,12 @@
 # MyProjects
-project that take flicker according to longitude and latitude
+// customView
+import UIKit
+
+class PhotoViewCell: UICollectionViewCell {
+    static let identifier = "PhotoViewCell"
+    
+    var imageUrl: String = ""
+    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+}
